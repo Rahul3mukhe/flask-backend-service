@@ -49,9 +49,13 @@ README.md
 
 ## 6. Jenkins Pipeline Stages 
 1.Checkout – Pulls latest code from GitHub.
+
 2.Run Tests – Installs required packages and (optional) runs automated tests.
+
 3.Build Docker Image – Creates a versioned Docker image using Dockerfile.
+
 4.Push to Docker Hub – Uploads the image to your Docker registry.
+
 5.Deploy – Stops previous container and runs the new version automatically.
 
 ## 7. Deployment Workflow
